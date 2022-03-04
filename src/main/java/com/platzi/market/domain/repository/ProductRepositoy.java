@@ -12,6 +12,4 @@ public interface ProductRepositoy {
     Optional<Product> getProduct(int productId);
     Product save(Product product);
     void delete(int productId);
-
-
 }
